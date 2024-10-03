@@ -22,7 +22,7 @@ public class ConcurrentMatMul {
 			for(int j = 0; j < cols; j++) {
 				row.add(j, rand.nextInt(10));
 			}
-			m.set(i, row);
+			m.add(i, row);
 		}
 	}
 	
